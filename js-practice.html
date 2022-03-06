@@ -53,6 +53,37 @@
     let greeting = "Hello! My name is " + name + ".";
     console.log(greeting);
 
+
+    console.log("Using functions");
+
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    console.log(makeSquare(5));
+
+
+    console.log("Functions on my own");
+
+    function makeName(firstName, middleName, lastName) {
+      let fullName = firstName + " " + middleName + " " + lastName;
+      return fullName;
+    }
+
+    let tryA = makeName("Valeria", "Lauren", "Moreno");
+    console.log(tryA);
+
+    let tryB = makeName("Robert", "\"Beto\"", "O'Rourke");
+    console.log(tryB);
+
+    let tryC = makeName("William", "H.", "Macy");
+    console.log(tryC);
+
+    
   </script>
 </body>
 </html>
